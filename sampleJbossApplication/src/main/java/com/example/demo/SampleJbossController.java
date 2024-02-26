@@ -15,4 +15,9 @@ public class SampleJbossController {
         
          return "Hello welcome to new spring boot App ";
      }
+	 @GetMapping("/")
+     public String home() {
+        
+         return "Hello welcome to new spring boot Home App ";
+     }
 }
